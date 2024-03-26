@@ -1,0 +1,15 @@
+create table if not exists hedge_fund(
+id bigint not null,
+managed_funds varchar(255) null,
+portfolio_archive varchar(255) null,
+managed_portfolio varchar(255) null,
+market_exposure varchar(255) null,
+delicate_balance varchar(255) null,
+maximize_return varchar(255) null,
+market_benchmark varchar(255) null,
+bearer_risk varchar(255) null,
+shorting varchar(255) null,
+diverse_fund varchar(255) null,
+liquidity varchar(255) null,
+port_exposure varchar(255) null,
+constraint hedge_fund_pk primary key(id));
